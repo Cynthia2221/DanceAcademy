@@ -1,8 +1,6 @@
-# React + Vite
+# Dance Academy proyect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Objetive
 
-Currently, two official plugins are available:
+El objetivo de esta página web es ofrecer a la gente cumplir un sueño o alegrarles los días con un hobby que compara diversión y ejercicio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
