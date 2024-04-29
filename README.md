@@ -1,17 +1,6 @@
 # Dance Academy
 
-![Dance Academy Logo](https://example.com/logo.png)
-
 This is the README file for Dance Academy, a platform dedicated to providing high-quality dance education and training. Below you'll find detailed information about the main features of our platform, third-party components used, helpful tutorials, and more.
-
-## Table of Contents
-
-- [Description](#description)
-- [Third-party Components](#third-party-components)
-- [Helpful Tutorials](#helpful-tutorials)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Description
 
