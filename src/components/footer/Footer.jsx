@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="footer">
             <div className="sb-footer section-padding">
                 <div className="sb-footer-links">
-                    <div className="sb-footer-links-div">
+                    {/* <div className="sb-footer-links-div">
                         <h4>Hola</h4>
                         <a href="/first">
                             <p>First</p>
@@ -58,27 +58,36 @@ const Footer = () => {
                         <a href="/twelve">
                             <p>Twelve</p>
                         </a>
-                    </div>
+                    </div> */}
                     <div className="sb-footer-links-div">
-                        <h4>Adiosito</h4>
+                        <h4>Forma de Contactar </h4>
                         <a href="/thirteen">
-                            <p>Thirteen</p>
+                            <p>Instagram</p>
                         </a>
                         <a href="/fourteen">
-                            <p>Fourteen</p>
+                            <p>Twitter</p>
                         </a>
                         <a href="/fiveteen">
-                            <p>Fiveteen</p>
+                            <p>WhatsApp: 654094312</p>
                         </a>
                     </div>
                     <div className="sb-footer-links-div">
-                        <h4>Holita</h4>
+                        <h4>Redes Sociales</h4>
                         <div className="socialMedia">
-                            <p><img src={fb} alt=""></img></p>
-                            <p><img src={twitter} alt=""></img></p>
-                            <p><img src={linkedin} alt=""></img></p>
-                            <p><img src={ig} alt=""></img></p>
+                            <a href="https://www.facebook.com/BAILAFACILGijon/" target="_blank" rel="noopener noreferrer">
+                                <img src={fb} alt="Facebook" />
+                            </a>
+                            <a href="https://twitter.com/_clasesdebaile" target="_blank" rel="noopener noreferrer">
+                                <img src={twitter} alt="Twitter" />
+                            </a>
+                            <a href="https://es.linkedin.com/company/clases-de-baile?trk=public_profile_experience-item_profile-section-card_image-click" target="_blank" rel="noopener noreferrer">
+                                <img src={linkedin} alt="LinkedIn" />
+                            </a>
+                            <a href="https://www.instagram.com/up_escueladebaile/?hl=es" target="_blank" rel="noopener noreferrer">
+                                <img src={ig} alt="Instagram" />
+                            </a>
                         </div>
+
                     </div>
 
                     <div className="sb-footer">
@@ -88,16 +97,16 @@ const Footer = () => {
                             </p>
                         </div>
                         <div className="sb-footer-links-terms">
-                            <a href="/terms"><div>
+                            <a href="https://letslaw.es/terminos-y-condiciones-sitio-web/"><div>
                                 <p>Terms & Conditions</p>
                             </div></a>
-                            <a href="/privacy"><div>
+                            <a href="https://www.aepd.es/politica-de-privacidad-y-aviso-legal"><div>
                                 <p>Privacy</p>
                             </div></a>
-                            <a href="/security"><div>
+                            <a href="https://www.caixapopular.es/es/glosario-terminos-seguridad"><div>
                                 <p>Security</p>
                             </div></a>
-                            <a href="/cockie"><div>
+                            <a href="https://terminosycondiciones.es/politica-de-cookies/"><div>
                                 <p>Cockie Declaration</p>
                             </div></a>
                         </div>

@@ -11,8 +11,8 @@ function DanceArray({ arrayPhoto }) {
             <div className="dance-types-img-container">
                 <img src={arrayPhoto.image} alt={arrayPhoto.name} />
             </div>
-
         </div>
+        
     )
 }
 

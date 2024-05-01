@@ -1,9 +1,13 @@
 h1 {
+  font-family: "Kanit", sans-serif;
   height: 2rem;
   margin-top: 1rem;
+  text-align: center;
 }
 
 h2 {
+  font-family: "Kanit", sans-serif;
+  text-align: center;
   height: 1.5rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -37,11 +41,11 @@ h2 {
   }
 
   .dance-types-img-container {
-    height: calc(100% - 6rem);
+    height: calc(100% - 14rem);
   }
 }
 
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 576px) {
   h1 {
     font-size: 1.2rem;
   }
@@ -83,4 +87,4 @@ h2 {
   .dance-types-img-container:hover>img {
     transform: scale(1.1);
   }
-}
+} */
