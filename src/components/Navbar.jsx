@@ -18,7 +18,7 @@ export const Navbar = () => {
     <ul className={menuOpen ? "open" : ""} style={{ fontFamily: 'Kanit, sans-serif' }}>
       <li><NavLink to="/about">About</NavLink></li>
       <li><NavLink to="/contact">Contact</NavLink></li>
-      <li><NavLink to="/services">Services</NavLink></li>
+      <li><NavLink to="/forum">Forum</NavLink></li>
     </ul>
   </nav>
   )
