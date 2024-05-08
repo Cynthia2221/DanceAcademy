@@ -25,15 +25,17 @@
   
   .forum-form button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #2e1835;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    height: 3rem;
+    font-size: 20px;
   }
   
   .forum-form button:hover {
-    background-color: #0056b3;
+    background-color: #742c88;
   }
   
   .forum-post {
@@ -54,14 +56,27 @@
   
   .forum-post button {
     padding: 5px 10px;
-    background-color: #dc3545;
+    background-color: #521e4e;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
     cursor: pointer;
+    font-size: 20px;
+    /* justify-content: center;
+    align-items: center; */
   }
   
-  .forum-post button:hover {
-    background-color: #bd2130;
+  .button-edit{
+    height: 3rem;
+    margin-right: 1rem;
+    width: 10rem;
+    margin-top: 1rem;
+    background-color: blueviolet;
   }
-  
+
+  .button-delete{
+    height: 3rem;
+    margin-right: 1rem;
+    width: 10rem;
+    margin-top: 1rem;
+  }

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { initializeApp } from "firebase/app";
-import { getDatabase, ref, set, push, onValue, remove } from "firebase/database";
+import { getDatabase, ref, set, push, onValue, remove, update } from "firebase/database";
 import './Forum.css'; // Importa el archivo CSS que acabamos de crear
 
 const Forum = () => {
@@ -51,6 +51,13 @@ const Forum = () => {
     remove(postRef);
   };
 
+  const handleEdit = (postId, newContent) => {
+    const postRef = ref(database, `post/${postId}`);
+    update(postRef, {
+      Content: newContent
+    });
+  };
+
   return (
     <div className="forum-container">
       <h1>Forum</h1>
@@ -66,7 +73,8 @@ const Forum = () => {
             <h3>{post.Title}</h3>
             <p><strong>Author:</strong> {post.Author}</p>
             <p><strong>Content:</strong> {post.Content}</p>
-            <button onClick={() => handleDelete(post.id)}>Delete</button>
+            <button className="button-edit" onClick={() => handleEdit(post.id, prompt("Edit content:", post.Content))}>Edit</button>
+            <button className="button-delete" onClick={() => handleDelete(post.id)}>Delete</button>
           </li>
         ))}
       </ul>
@@ -75,5 +83,6 @@ const Forum = () => {
 };
 
 export default Forum;
+
 
 
