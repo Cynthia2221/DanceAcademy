@@ -1,0 +1,35 @@
+.terms-title{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.terms-title h1{
+   justify-content: left;
+   display: flex;
+   font-size: 30px;
+   margin-bottom: 4rem;
+}
+
+.terms-title p{
+    margin-top: 4rem;
+    font-size: 20px;
+}
+
+.terms-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.terms-content h2{
+    font-size: 25px;
+    justify-content: left;
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.terms-content p{
+    font-size: 20px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}

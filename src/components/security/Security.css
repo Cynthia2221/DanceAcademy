@@ -1,0 +1,35 @@
+.security-title{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.security-title h1{
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: left;
+    font-size: 30px;
+}
+
+.security-title p{
+    font-size: 20px;
+    margin-top: 1rem;
+}
+
+.security-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.security-content h2{
+    font-size: 25px;
+    justify-content: left;
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.security-content p{
+    font-size: 20px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}

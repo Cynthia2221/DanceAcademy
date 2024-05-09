@@ -4,6 +4,7 @@ import fb from "../../assets/fb.png";
 import ig from "../../assets/ig.png";
 import linkedin from "../../assets/linkedin.png";
 import twitter from "../../assets/twitter.png";
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -97,18 +98,26 @@ const Footer = () => {
                             </p>
                         </div>
                         <div className="sb-footer-links-terms">
-                            <a href="https://letslaw.es/terminos-y-condiciones-sitio-web/"><div>
-                                <p>Terms & Conditions</p>
-                            </div></a>
-                            <a href="https://www.aepd.es/politica-de-privacidad-y-aviso-legal"><div>
-                                <p>Privacy</p>
-                            </div></a>
-                            <a href="https://www.caixapopular.es/es/glosario-terminos-seguridad"><div>
-                                <p>Security</p>
-                            </div></a>
-                            <a href="https://terminosycondiciones.es/politica-de-cookies/"><div>
-                                <p>Cockie Declaration</p>
-                            </div></a>
+                            <NavLink to="/terms">
+                                <div>
+                                    <p>Terms & Conditions</p>
+                                </div>
+                            </NavLink>
+                            <NavLink to="/privacy">
+                                <div>
+                                    <p>Privacy</p>
+                                </div>
+                            </NavLink>
+                            <NavLink to="/security">
+                                <div>
+                                    <p>Security</p>
+                                </div>
+                            </NavLink>
+                            <NavLink to="/cockies">
+                                <div>
+                                    <p>Cockie Declaration</p>
+                                </div>
+                            </NavLink>
                         </div>
                     </div>
                 </div>

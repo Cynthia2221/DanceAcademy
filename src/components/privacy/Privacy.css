@@ -1,0 +1,39 @@
+.privacy-title{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.privacy-title h1 {
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: left;
+    font-size: 30px;
+}
+
+.privacy-title p {
+    font-size: 20px;
+    margin-top: 1rem;
+}
+
+.privacy-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.privacy-content h2 {
+    font-size: 25px;
+    justify-content: left;
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.privacy-content p {
+    font-size: 20px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.p-content{
+    margin-left: 35px;
+}
