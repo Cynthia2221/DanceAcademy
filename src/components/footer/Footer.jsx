@@ -4,6 +4,7 @@ import fb from "../../assets/fb.png";
 import ig from "../../assets/ig.png";
 import linkedin from "../../assets/linkedin.png";
 import twitter from "../../assets/twitter.png";
+import rss from "../../assets/rss.png";
 import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
@@ -86,6 +87,9 @@ const Footer = () => {
                             </a>
                             <a href="https://www.instagram.com/up_escueladebaile/?hl=es" target="_blank" rel="noopener noreferrer">
                                 <img src={ig} alt="Instagram" />
+                            </a>
+                            <a href="/rss" target="_blank" rel="noopener noreferrer">
+                                <img src={rss} alt="RSS" />
                             </a>
                         </div>
 
