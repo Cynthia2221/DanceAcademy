@@ -8,6 +8,7 @@ import rss from "../../assets/rss.png";
 import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
+
     return (
 
         <div className="footer">
@@ -88,8 +89,8 @@ const Footer = () => {
                             <a href="https://www.instagram.com/up_escueladebaile/?hl=es" target="_blank" rel="noopener noreferrer">
                                 <img src={ig} alt="Instagram" />
                             </a>
-                            <a href="/rss" target="_blank" rel="noopener noreferrer">
-                                <img src={rss} alt="RSS" />
+                            <a href="../../../public/rss/RSS.xml">
+                                <img src={rss} alt="RSS"/>
                             </a>
                         </div>
 
