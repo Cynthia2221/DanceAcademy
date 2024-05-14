@@ -1,33 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
-<channel>
-    <title>Dream Vision</title>
-    <link></link>
-    <description></description>
-    <item>
-        <title></title>
+    <channel>
+        <title>Dream Vision</title>
         <link></link>
-        <description></description>
-    </item>
-    <item>
-        <title></title>
-        <link></link>
-        <description></description>
-    </item>
-    <item>
-        <title></title>
-        <link></link>
-        <description></description>
-    </item>
-    <item>
-        <title></title>
-        <link></link>
-        <description></description>
-    </item>
-    <item>
-        <title></title>
-        <link></link>
-        <description></description>
-    </item>
-</channel>
+        <description>Aquí te mostraremos todas las novedades que haya sobre las clases de baile. Te podrás enterar de los precios, horas, etc, de tus clases favoritas. Iremos actualizando cada novedad.</description>
+        <category>
+            <![CDATA[ Novedades del ballet]]>
+            <item>
+                <description>Aquí encontrarás las nuevas fechas para las fechas de verano de 2024</description>
+                <startDates>Empezará el 14/06/2024</startDates>
+                <finalDates>Finalizarán el 03/08/2024</finalDates>
+            </item>
+            <item>
+                <title>Listado de profesores</title>
+                <description></description>
+            </item>
+            <item>
+                <title></title>
+                <description></description>
+            </item>
+            <item>
+                <title></title>
+                <description></description>
+            </item>
+        </category>
+        <category>
+            <![CDATA[ Novedades del Hip-Hop]]>
+            <item>
+                <title></title>
+                <description></description>
+            </item>
+            <item>
+                <title></title>
+                <description></description>
+            </item>
+            <item>
+                <title></title>
+                <description></description>
+            </item>
+            <item>
+                <title></title>
+                <description></description>
+            </item>
+            <item>
+                <title></title>
+                <description></description>
+            </item>
+        </category>
+        <category>
+            <![CDATA[ Novedades del BreakDance]]>
+            <item>
+                <title></title>
+                <description></description>
+            </item>
+            <item>
+                <title></title>
+                <description></description>
+            </item>
+            <item>
+                <title></title>
+                <description></description>
+            </item>
+            <item>
+                <title></title>
+                <description></description>
+            </item>
+        </category>
+        <category>
+            <![CDATA[ Novedades del Contemporáneo]]>
+            <item>
+                <title></title>
+                <description></description>
+            </item>
+            <item>
+                <title></title>
+                <description></description>
+            </item>
+            <item>
+                <title></title>
+                <description></description>
+            </item>
+            <item>
+                <title></title>
+                <description></description>
+            </item>
+        </category>
+        <category>
+            <![CDATA[ Novedades de la Bachata]]>
+            <item>
+                <title></title>
+                <description></description>
+            </item>
+            <item>
+                <title></title>
+                <description></description>
+            </item>
+            <item>
+                <title></title>
+                <description></description>
+            </item>
+            <item>
+                <title></title>
+                <description></description>
+            </item>
+        </category>
+        <category>
+            <![CDATA[ Novedades del Tango]]>
+            <item>
+                <title></title>
+                <description></description>
+            </item>
+            <item>
+                <title></title>
+                <description></description>
+            </item>
+            <item>
+                <title></title>
+                <description></description>
+            </item>
+            <item>
+                <title></title>
+                <description></description>
+            </item>
+        </category>
+    </channel>
 </rss>
