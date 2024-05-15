@@ -1,14 +1,13 @@
 import React, { useEffect, useRef, useState } from 'react';
-import DanceTypes from "../../components/danceTypes/DanceTypes"
+import DanceTypes from "../../components/danceTypes/DanceTypes";
 import danceTypes from '../../data/danceTypes';
 import horario from "../../assets/schedules/HORARIO.jpg";
 import "./Home.css";
 import { data } from '../../data/data';
 
-
 export const Home = () => {
   const listRef = useRef();
-  const [currentIndex, setcurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
     const listNote = listRef.current;
@@ -16,28 +15,29 @@ export const Home = () => {
 
     if (imgNode) {
       imgNode.scrollIntoView({
-        behavior: "smooth"
+        behavior: "smooth",
       });
     }
-  }, [currentIndex])
+  }, [currentIndex]);
 
   const scrollToImage = (direction) => {
     if (direction === 'prev') {
-      setcurrentIndex(curr => {
+      setCurrentIndex((curr) => {
         const isFirstSlide = currentIndex === 0;
         return isFirstSlide ? 0 : curr - 1;
-      })
+      });
     } else {
       const isLastSlide = currentIndex === data.length - 1;
       if (!isLastSlide) {
-        setcurrentIndex(curr => curr + 1);
+        setCurrentIndex((curr) => curr + 1);
       }
     }
-  }
+  };
 
-  const goToSlide= (slideIndex) => {
-    setcurrentIndex(slideIndex);
-  }
+  const goToSlide = (slideIndex) => {
+    setCurrentIndex(slideIndex);
+  };
+
   return (
     <>
       <div className="home">
@@ -54,25 +54,30 @@ export const Home = () => {
       <div className="slider-main-container">
         <h1>Nuestras Instalaciones</h1>
         <div className="slider-container">
-          <div className='leftArrow' onClick={() => scrollToImage('prev')}>&#10096;</div>
-          <div className='rightArrow' onClick={() => scrollToImage('next')}>&#10097;</div>
+          <div className="leftArrow" onClick={() => scrollToImage('prev')}>
+            &#10096;
+          </div>
+          <div className="rightArrow" onClick={() => scrollToImage('next')}>
+            &#10097;
+          </div>
           <div className="slider-container-images">
             <ul ref={listRef}>
-            <li key={data[currentIndex].id}>
-                <img src={data[currentIndex].imgUrl} width={500} height={280} />
+              <li key={data[currentIndex].id}>
+                <img src={data[currentIndex].imgUrl} width={500} height={280} alt={`Slide ${currentIndex}`} />
               </li>
             </ul>
           </div>
 
           <div className="buttons-container">
-            {
-              data.map((_, idx) => (
-                <div key={idx} className={`buttons-container-item ${idx === currentIndex ? "active" : ""}`}
-                onClick={() => goToSlide(idx)}> 
-                  &#9865;
-                </div>
-              ))
-            }
+            {data.map((_, idx) => (
+              <div
+                key={idx}
+                className={`buttons-container-item ${idx === currentIndex ? 'active' : ''}`}
+                onClick={() => goToSlide(idx)}
+              >
+                &#9865;
+              </div>
+            ))}
           </div>
         </div>
       </div>
