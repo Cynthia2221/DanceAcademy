@@ -2,126 +2,65 @@
 <rss version="2.0">
     <channel>
         <title>Dream Vision</title>
-        <link></link>
         <description>Aquí te mostraremos todas las novedades que haya sobre las clases de baile. Te podrás enterar de los precios, horas, etc, de tus clases favoritas. Iremos actualizando cada novedad.</description>
-        <category>
-            <![CDATA[ Novedades del ballet]]>
-            <item>
-                <description>Aquí encontrarás las nuevas fechas para las fechas de verano de 2024</description>
-                <startDates>Empezará el 14/06/2024</startDates>
-                <finalDates>Finalizarán el 03/08/2024</finalDates>
-            </item>
-            <item>
-                <title>Listado de profesores</title>
-                <description></description>
-            </item>
-            <item>
-                <title></title>
-                <description></description>
-            </item>
-            <item>
-                <title></title>
-                <description></description>
-            </item>
-        </category>
-        <category>
-            <![CDATA[ Novedades del Hip-Hop]]>
-            <item>
-                <title></title>
-                <description></description>
-            </item>
-            <item>
-                <title></title>
-                <description></description>
-            </item>
-            <item>
-                <title></title>
-                <description></description>
-            </item>
-            <item>
-                <title></title>
-                <description></description>
-            </item>
-            <item>
-                <title></title>
-                <description></description>
-            </item>
-        </category>
-        <category>
-            <![CDATA[ Novedades del BreakDance]]>
-            <item>
-                <title></title>
-                <description></description>
-            </item>
-            <item>
-                <title></title>
-                <description></description>
-            </item>
-            <item>
-                <title></title>
-                <description></description>
-            </item>
-            <item>
-                <title></title>
-                <description></description>
-            </item>
-        </category>
-        <category>
-            <![CDATA[ Novedades del Contemporáneo]]>
-            <item>
-                <title></title>
-                <description></description>
-            </item>
-            <item>
-                <title></title>
-                <description></description>
-            </item>
-            <item>
-                <title></title>
-                <description></description>
-            </item>
-            <item>
-                <title></title>
-                <description></description>
-            </item>
-        </category>
-        <category>
-            <![CDATA[ Novedades de la Bachata]]>
-            <item>
-                <title></title>
-                <description></description>
-            </item>
-            <item>
-                <title></title>
-                <description></description>
-            </item>
-            <item>
-                <title></title>
-                <description></description>
-            </item>
-            <item>
-                <title></title>
-                <description></description>
-            </item>
-        </category>
-        <category>
-            <![CDATA[ Novedades del Tango]]>
-            <item>
-                <title></title>
-                <description></description>
-            </item>
-            <item>
-                <title></title>
-                <description></description>
-            </item>
-            <item>
-                <title></title>
-                <description></description>
-            </item>
-            <item>
-                <title></title>
-                <description></description>
-            </item>
-        </category>
+        <language>es-es</language>
+        <lastBuildDate>Wed, 15 May 2024 10:00:00 +0000</lastBuildDate>
+        
+        <item>
+            <title>Nuevas fechas para las clases de verano de 2024</title>
+            <description>Aquí encontrarás las nuevas fechas para las fechas de verano de 2024. Empezará el 14/06/2024 y finalizarán el 03/08/2024.</description>
+            <category><![CDATA[Novedades del ballet]]></category>
+            <pubDate>Wed, 15 May 2024 09:00:00 +0000</pubDate>
+            <guid>unique-id-1</guid>
+        </item>
+        
+        <item>
+            <title>Listado de profesores</title>
+            <description>Conoce a nuestro equipo de profesores para la temporada 2024.</description>
+            <category><![CDATA[Novedades del ballet]]></category>
+            <pubDate>Wed, 15 May 2024 09:30:00 +0000</pubDate>
+            <guid>unique-id-2</guid>
+        </item>
+        
+        <item>
+            <title>Novedades en Hip-Hop</title>
+            <description>Actualizaciones importantes sobre nuestras clases de Hip-Hop.</description>
+            <category><![CDATA[Novedades del Hip-Hop]]></category>
+            <pubDate>Wed, 15 May 2024 10:00:00 +0000</pubDate>
+            <guid>unique-id-3</guid>
+        </item>
+        
+        <item>
+            <title>Nuevo taller de BreakDance</title>
+            <description>Inscríbete en nuestro nuevo taller de BreakDance que comienza en junio.</description>
+            <category><![CDATA[Novedades del BreakDance]]></category>
+            <pubDate>Wed, 15 May 2024 10:30:00 +0000</pubDate>
+            <guid>unique-id-4</guid>
+        </item>
+        
+        <item>
+            <title>Competición de danza contemporánea</title>
+            <description>Participa en nuestra competición de danza contemporánea el próximo mes.</description>
+            <category><![CDATA[Novedades del Contemporáneo]]></category>
+            <pubDate>Wed, 15 May 2024 11:00:00 +0000</pubDate>
+            <guid>unique-id-5</guid>
+        </item>
+        
+        <item>
+            <title>Clases especiales de Bachata</title>
+            <description>No te pierdas nuestras clases especiales de Bachata cada viernes.</description>
+            <category><![CDATA[Novedades de la Bachata]]></category>
+            <pubDate>Wed, 15 May 2024 11:30:00 +0000</pubDate>
+            <guid>unique-id-6</guid>
+        </item>
+        
+        <item>
+            <title>Festival de Tango</title>
+            <description>Acompáñanos en el festival de Tango el próximo fin de semana.</description>
+            <category><![CDATA[Novedades del Tango]]></category>
+            <pubDate>Wed, 15 May 2024 12:00:00 +0000</pubDate>
+            <guid>unique-id-7</guid>
+        </item>
+        
     </channel>
 </rss>
