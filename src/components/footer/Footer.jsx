@@ -89,7 +89,7 @@ const Footer = () => {
                             <a href="https://www.instagram.com/up_escueladebaile/?hl=es" target="_blank" rel="noopener noreferrer">
                                 <img src={ig} alt="Instagram" />
                             </a>
-                            <a href="../../../public/rss/RSS.xml">
+                            <a href="/rss/RSS.xml">
                                 <img src={rss} alt="RSS"/>
                             </a>
                         </div>
