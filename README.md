@@ -42,7 +42,7 @@ Dance Academy is licensed under the MIT License. See the [LICENSE](LICENSE) file
 This is the link for my Dance Academy page (https://danceacademy-d905d.web.app).
 
 ## RSS screenshot
-![Screenshot1] (src/readmeImages/screenshotReadme.png)
+![Screenshot1](src/readmeImages/screenshotReadme.png)
 
 ---
 This README template is inspired by [Best-README-Template](https://github.com/othneildrew/Best-README-Template).
