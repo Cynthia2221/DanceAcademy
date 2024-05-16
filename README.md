@@ -37,6 +37,10 @@ We welcome contributions from the community to improve Dance Academy. If you'd l
 
 Dance Academy is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+## Link for my page with hosting
+
+This is the link for my Dance Academy page (https://danceacademy-d905d.web.app).
+
 ---
 This README template is inspired by [Best-README-Template](https://github.com/othneildrew/Best-README-Template).
 
